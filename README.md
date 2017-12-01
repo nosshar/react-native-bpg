@@ -57,9 +57,9 @@ Example project can be found in link section
 
 [BPG](https://bellard.org/bpg/)
 
-[GIT:react-native-bpg](https://github.com/nosshar/react-native-bpg)
+[GIT:react-native-bpg-example](https://github.com/nosshar/react-native-bpg-example)
 
-[NPM:react-native-bpg](https://www.npmjs.com/package/react-native-bpg)
+[NPM:react-native-bpg-example](https://www.npmjs.com/package/react-native-bpg-example)
 
 
 ## ToDo list
