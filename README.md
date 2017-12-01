@@ -26,7 +26,7 @@ _**There will be the warnings during the native libraries build phase.**_
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.reactlibrary.RNReactNativeBpgPackage;` to the imports at the top of the file
+  - Add `import com.kornell.bpg.RNReactNativeBpgPackage;` to the imports at the top of the file
   - Add `new RNReactNativeBpgPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
@@ -49,7 +49,7 @@ Not implemented for Windows
 
 ## Usage
 
-Example project can be found in link section
+Example project can be found in [links](https://www.npmjs.com/package/react-native-bpg#links) section
 
 ## Links
 
