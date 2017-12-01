@@ -69,9 +69,9 @@ Example project can be found in [links](https://www.npmjs.com/package/react-nati
 
 > add download from web (check with self-signed ssl and provide option to enable skip-checking)
 
-> add methods for ```*AsPromise```, rename current methods to ```*AsCallback```
+> add methods for ```*AsPromise```
 
-> rename methods for AsCallback
+> rename current methods to ```*AsCallback```
 
 ## Troubleshooting
 
