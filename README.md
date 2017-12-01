@@ -59,8 +59,6 @@ Example project can be found in link section
 
 [GIT:react-native-bpg-example](https://github.com/nosshar/react-native-bpg-example)
 
-[NPM:react-native-bpg-example](https://www.npmjs.com/package/react-native-bpg-example)
-
 
 ## ToDo list
 > filter getList with .bpg$ pattern
