@@ -2,8 +2,8 @@
 #include <jni.h>
 /* Header for class com_kornell_zzz_bpg_DecoderWrapper */
 
-#ifndef _Included_com_kornell_zzz_bpg_DecoderWrapper
-#define _Included_com_kornell_zzz_bpg_DecoderWrapper
+#ifndef _Included_com_kornell_bpg_DecoderWrapper
+#define _Included_com_kornell_bpg_DecoderWrapper
 #ifdef __cplusplus
 extern "C" {
 #endif

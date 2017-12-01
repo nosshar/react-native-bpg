@@ -66,7 +66,7 @@ jint JNI_OnLoad(JavaVM* vm, void* reserved) {
 	if ((*vm)->GetEnv(vm, (void **) &env, JNI_VERSION_1_6) != JNI_OK) {
 		return JNI_ERR;
 	} else {
-		jclass clazz = (*env)->FindClass(env, "com/kornell/zzz/bpg/DecoderWrapper");
+		jclass clazz = (*env)->FindClass(env, "com/kornell/bpg/DecoderWrapper");
 		if (clazz) {
 			jint ret = (*env)->RegisterNatives(env, clazz, method_table, method_table_size);
 			(*env)->DeleteLocalRef(env, clazz);

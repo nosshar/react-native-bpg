@@ -13,6 +13,10 @@ import java.util.Map;
 
 public class RNReactNativeBpgModule extends ReactContextBaseJavaModule {
 
+    static {
+        System.loadLibrary("bpg_decoder");
+    }
+
     private final ReactApplicationContext reactContext;
 
     public RNReactNativeBpgModule(ReactApplicationContext reactContext) {
@@ -65,13 +69,13 @@ public class RNReactNativeBpgModule extends ReactContextBaseJavaModule {
         }
 
         long stopTime = System.currentTimeMillis();
-        String timeString = "read bpg " + String.valueOf(stopTime - startTime);
+        String timeString = "read bpg " + String.valueOf(stopTime - startTime) + "ms";
 
         startTime = System.currentTimeMillis();
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.JPEG, quality, baos);
         stopTime = System.currentTimeMillis();
-        timeString += ", bmp->jpg " + String.valueOf(stopTime - startTime);
+        timeString += ", bmp->jpg " + String.valueOf(stopTime - startTime) + "ms";
 
         successCallback.invoke(
                 "Image read " + String.valueOf(bitmap.getWidth()) + "x" + String.valueOf(bitmap.getHeight()) + " in " + timeString,
