@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-bpg",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "private": false,
   "description": "React native module for reading and decoding BPG-encoded images",
   "main": "index.js",
@@ -22,6 +22,6 @@
     "better portable graphics"
   ],
   "peerDependencies": {
-    "react-native": "^0.42.x"
+    "react-native": ">=0.42.0"
   }
 }
